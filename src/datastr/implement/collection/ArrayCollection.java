@@ -17,8 +17,8 @@ public class ArrayCollection implements Collection {
         if (object == null) {
             throw new IllegalArgumentException();
         }
-        ensureCap(++size);
-        elementData[size] = object;
+        ensureCap(size+1);
+        elementData[size++] = object;
     }
 
     private void ensureCap(int cap) {
