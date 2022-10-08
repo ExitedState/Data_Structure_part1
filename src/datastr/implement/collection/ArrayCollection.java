@@ -1,4 +1,4 @@
-package datastr.implement;
+package datastr.implement.collection;
 
 import datastr.interfaces.Collection;
 
